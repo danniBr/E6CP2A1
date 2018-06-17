@@ -6,3 +6,19 @@
 
 a = [1, 2, 3, 9, 12, 31, 'domingo']
 b = %w[lunes martes miércoles jueves viernes sábado domingo]
+
+# 1:
+c = a + b
+print c
+
+# 2:
+d = a | b
+print "\n#{d}"
+
+# 3:
+e = a & b
+print "\n#{e}"
+
+# 4:
+f = a.zip(b)
+print "\n#{f}"
