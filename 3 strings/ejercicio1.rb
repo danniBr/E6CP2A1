@@ -4,4 +4,10 @@
 # o string dado está contenido en éste.
 
 cadena = 'Hola Mundo!'
-caracter = 'o'
+caracter = 'a'
+
+def prueba(string, letra)
+  string.include? letra
+end
+
+puts prueba(cadena, caracter)
