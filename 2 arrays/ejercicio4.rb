@@ -8,8 +8,11 @@ Se tiene un arreglo de productos, se pide que el output sea:
 
 products = %w(Producto1 Producto2 Producto3 Producto4)
 
+html = ''
 products.each do |i|
-  puts "<div class='product'> <p> #{i} </p> </div>\n"
+  html += "<div class='product'>"
+  html += "<p> #{i} </p>"
+  html += "</div>\n"
 end
 
-products
+puts html
